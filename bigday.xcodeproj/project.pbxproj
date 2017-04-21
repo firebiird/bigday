@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0771A05620CDFF98135AD933 /* Pods_bigdayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB1AA5CA9C45307F7479DB4 /* Pods_bigdayUITests.framework */; };
+		492F57FFFC47AE388BAA691E /* Pods_bigdayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1D678162CF88E6BB1884C8 /* Pods_bigdayTests.framework */; };
+		4D728B751EA7A115006F4BC0 /* Hipsta-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D728B741EA79B6B006F4BC0 /* Hipsta-Regular.otf */; };
 		4DA6F0241EA61B0F00382210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6F0231EA61B0F00382210 /* AppDelegate.swift */; };
-		4DA6F0261EA61B0F00382210 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6F0251EA61B0F00382210 /* FirstViewController.swift */; };
+		4DA6F0261EA61B0F00382210 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6F0251EA61B0F00382210 /* InfoViewController.swift */; };
 		4DA6F0281EA61B0F00382210 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6F0271EA61B0F00382210 /* SecondViewController.swift */; };
 		4DA6F02B1EA61B0F00382210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6F0291EA61B0F00382210 /* Main.storyboard */; };
 		4DA6F02D1EA61B0F00382210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6F02C1EA61B0F00382210 /* Assets.xcassets */; };
 		4DA6F0301EA61B0F00382210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6F02E1EA61B0F00382210 /* LaunchScreen.storyboard */; };
 		4DA6F03B1EA61B1000382210 /* bigdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6F03A1EA61B1000382210 /* bigdayTests.swift */; };
 		4DA6F0461EA61B1000382210 /* bigdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6F0451EA61B1000382210 /* bigdayUITests.swift */; };
+		4DA6F0541EA61C2400382210 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6F0531EA61C2400382210 /* LoginController.swift */; };
+		4DFC47221EA8F0D800D31357 /* BackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC47211EA8F0D800D31357 /* BackendService.swift */; };
+		957EBC330F9AAF87C0DC602D /* Pods_bigday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F729789F9BE4B7F516B8856D /* Pods_bigday.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A1D678162CF88E6BB1884C8 /* Pods_bigdayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bigdayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A863933463191437F71E8C /* Pods-bigdayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigdayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bigdayUITests/Pods-bigdayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D728B741EA79B6B006F4BC0 /* Hipsta-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Hipsta-Regular.otf"; path = "../../../../Downloads/Hipsta-font/Hipsta-Regular.otf"; sourceTree = "<group>"; };
 		4DA6F0201EA61B0F00382210 /* bigday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA6F0231EA61B0F00382210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DA6F0251EA61B0F00382210 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4DA6F0251EA61B0F00382210 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		4DA6F0271EA61B0F00382210 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4DA6F02A1EA61B0F00382210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DA6F02C1EA61B0F00382210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		4DA6F0411EA61B1000382210 /* bigdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bigdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA6F0451EA61B1000382210 /* bigdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigdayUITests.swift; sourceTree = "<group>"; };
 		4DA6F0471EA61B1000382210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA6F0531EA61C2400382210 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4DFC47211EA8F0D800D31357 /* BackendService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendService.swift; sourceTree = "<group>"; };
+		7300A5820F36E57B66BF2F55 /* Pods-bigdayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigdayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bigdayUITests/Pods-bigdayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7F871912B26235A9AB9E2D9F /* Pods-bigdayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigdayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bigdayTests/Pods-bigdayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		891C4D1EDB10EDC5BA129457 /* Pods-bigday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigday.release.xcconfig"; path = "Pods/Target Support Files/Pods-bigday/Pods-bigday.release.xcconfig"; sourceTree = "<group>"; };
+		C97623C831E518F0C7D8F533 /* Pods-bigday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bigday/Pods-bigday.debug.xcconfig"; sourceTree = "<group>"; };
+		CEEC9D5C2557A5AA284FC699 /* Pods-bigdayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigdayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bigdayTests/Pods-bigdayTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEB1AA5CA9C45307F7479DB4 /* Pods_bigdayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bigdayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F729789F9BE4B7F516B8856D /* Pods_bigday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bigday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957EBC330F9AAF87C0DC602D /* Pods_bigday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492F57FFFC47AE388BAA691E /* Pods_bigdayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0771A05620CDFF98135AD933 /* Pods_bigdayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				4DA6F0391EA61B1000382210 /* bigdayTests */,
 				4DA6F0441EA61B1000382210 /* bigdayUITests */,
 				4DA6F0211EA61B0F00382210 /* Products */,
+				DD06B178BF6E41CCB3D247CD /* Pods */,
+				58A4589698FEFA96FF709454 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +122,16 @@
 		4DA6F0221EA61B0F00382210 /* bigday */ = {
 			isa = PBXGroup;
 			children = (
+				4DFC47201EA8F0B900D31357 /* Helpers */,
+				4D728B741EA79B6B006F4BC0 /* Hipsta-Regular.otf */,
 				4DA6F0231EA61B0F00382210 /* AppDelegate.swift */,
-				4DA6F0251EA61B0F00382210 /* FirstViewController.swift */,
+				4DA6F0251EA61B0F00382210 /* InfoViewController.swift */,
 				4DA6F0271EA61B0F00382210 /* SecondViewController.swift */,
 				4DA6F0291EA61B0F00382210 /* Main.storyboard */,
 				4DA6F02C1EA61B0F00382210 /* Assets.xcassets */,
 				4DA6F02E1EA61B0F00382210 /* LaunchScreen.storyboard */,
 				4DA6F0311EA61B0F00382210 /* Info.plist */,
+				4DA6F0531EA61C2400382210 /* LoginController.swift */,
 			);
 			path = bigday;
 			sourceTree = "<group>";
@@ -128,6 +154,37 @@
 			path = bigdayUITests;
 			sourceTree = "<group>";
 		};
+		4DFC47201EA8F0B900D31357 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC47211EA8F0D800D31357 /* BackendService.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		58A4589698FEFA96FF709454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F729789F9BE4B7F516B8856D /* Pods_bigday.framework */,
+				3A1D678162CF88E6BB1884C8 /* Pods_bigdayTests.framework */,
+				EEB1AA5CA9C45307F7479DB4 /* Pods_bigdayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD06B178BF6E41CCB3D247CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C97623C831E518F0C7D8F533 /* Pods-bigday.debug.xcconfig */,
+				891C4D1EDB10EDC5BA129457 /* Pods-bigday.release.xcconfig */,
+				7F871912B26235A9AB9E2D9F /* Pods-bigdayTests.debug.xcconfig */,
+				CEEC9D5C2557A5AA284FC699 /* Pods-bigdayTests.release.xcconfig */,
+				45A863933463191437F71E8C /* Pods-bigdayUITests.debug.xcconfig */,
+				7300A5820F36E57B66BF2F55 /* Pods-bigdayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA6F04A1EA61B1000382210 /* Build configuration list for PBXNativeTarget "bigday" */;
 			buildPhases = (
+				310EB2B1C5FA9FDD199AE5AD /* [CP] Check Pods Manifest.lock */,
 				4DA6F01C1EA61B0F00382210 /* Sources */,
 				4DA6F01D1EA61B0F00382210 /* Frameworks */,
 				4DA6F01E1EA61B0F00382210 /* Resources */,
+				1306D91DFF3C2C726F15ABF1 /* [CP] Embed Pods Frameworks */,
+				64778E2954FC4286FDDFF97C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA6F04D1EA61B1000382210 /* Build configuration list for PBXNativeTarget "bigdayTests" */;
 			buildPhases = (
+				2109CA289AFC5A657F6B3E45 /* [CP] Check Pods Manifest.lock */,
 				4DA6F0321EA61B1000382210 /* Sources */,
 				4DA6F0331EA61B1000382210 /* Frameworks */,
 				4DA6F0341EA61B1000382210 /* Resources */,
+				9F6236173B9EA500B4059213 /* [CP] Embed Pods Frameworks */,
+				10201FACF6C50B00260D51C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA6F0501EA61B1000382210 /* Build configuration list for PBXNativeTarget "bigdayUITests" */;
 			buildPhases = (
+				2A1C5F398A04EA5338876FC4 /* [CP] Check Pods Manifest.lock */,
 				4DA6F03D1EA61B1000382210 /* Sources */,
 				4DA6F03E1EA61B1000382210 /* Frameworks */,
 				4DA6F03F1EA61B1000382210 /* Resources */,
+				2921EE29B8A3E699901A49CC /* [CP] Embed Pods Frameworks */,
+				F96AEB6A4A688F3BADE4B7EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +262,7 @@
 				TargetAttributes = {
 					4DA6F01F1EA61B0F00382210 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8FXKP6L6U7;
 						ProvisioningStyle = Automatic;
 					};
 					4DA6F0351EA61B1000382210 = {
@@ -236,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA6F0301EA61B0F00382210 /* LaunchScreen.storyboard in Resources */,
+				4D728B751EA7A115006F4BC0 /* Hipsta-Regular.otf in Resources */,
 				4DA6F02D1EA61B0F00382210 /* Assets.xcassets in Resources */,
 				4DA6F02B1EA61B0F00382210 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +325,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10201FACF6C50B00260D51C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigdayTests/Pods-bigdayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1306D91DFF3C2C726F15ABF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigday/Pods-bigday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2109CA289AFC5A657F6B3E45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2921EE29B8A3E699901A49CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigdayUITests/Pods-bigdayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A1C5F398A04EA5338876FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		310EB2B1C5FA9FDD199AE5AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64778E2954FC4286FDDFF97C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigday/Pods-bigday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6236173B9EA500B4059213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigdayTests/Pods-bigdayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96AEB6A4A688F3BADE4B7EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bigdayUITests/Pods-bigdayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DA6F01C1EA61B0F00382210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4DA6F0281EA61B0F00382210 /* SecondViewController.swift in Sources */,
+				4DA6F0541EA61C2400382210 /* LoginController.swift in Sources */,
 				4DA6F0241EA61B0F00382210 /* AppDelegate.swift in Sources */,
-				4DA6F0261EA61B0F00382210 /* FirstViewController.swift in Sources */,
+				4DA6F0261EA61B0F00382210 /* InfoViewController.swift in Sources */,
+				4DFC47221EA8F0D800D31357 /* BackendService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,8 +624,10 @@
 		};
 		4DA6F04B1EA61B1000382210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97623C831E518F0C7D8F533 /* Pods-bigday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8FXKP6L6U7;
 				INFOPLIST_FILE = bigday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appsquabble.bigday;
@@ -428,8 +638,10 @@
 		};
 		4DA6F04C1EA61B1000382210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891C4D1EDB10EDC5BA129457 /* Pods-bigday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8FXKP6L6U7;
 				INFOPLIST_FILE = bigday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appsquabble.bigday;
@@ -440,6 +652,7 @@
 		};
 		4DA6F04E1EA61B1000382210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F871912B26235A9AB9E2D9F /* Pods-bigdayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +667,7 @@
 		};
 		4DA6F04F1EA61B1000382210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEC9D5C2557A5AA284FC699 /* Pods-bigdayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +682,7 @@
 		};
 		4DA6F0511EA61B1000382210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A863933463191437F71E8C /* Pods-bigdayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = bigdayUITests/Info.plist;
@@ -481,6 +696,7 @@
 		};
 		4DA6F0521EA61B1000382210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7300A5820F36E57B66BF2F55 /* Pods-bigdayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = bigdayUITests/Info.plist;
@@ -511,6 +727,7 @@
 				4DA6F04C1EA61B1000382210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DA6F04D1EA61B1000382210 /* Build configuration list for PBXNativeTarget "bigdayTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +736,7 @@
 				4DA6F04F1EA61B1000382210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DA6F0501EA61B1000382210 /* Build configuration list for PBXNativeTarget "bigdayUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +745,7 @@
 				4DA6F0521EA61B1000382210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

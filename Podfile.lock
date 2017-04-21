@@ -1,0 +1,17 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Siesta (1.1.1):
+    - Siesta/Core (= 1.1.1)
+  - Siesta/Core (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Siesta (~> 1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Siesta: 920372f09b7cfd798074d85d8f3cf8505529a56e
+
+PODFILE CHECKSUM: 6878e2f7fcbdecd02d977c577eb643c1c2e95738
+
+COCOAPODS: 1.2.0
